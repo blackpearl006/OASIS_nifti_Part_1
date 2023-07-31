@@ -1,33 +1,40 @@
-# OASIS_nifti_Part_1
-# OASIS_nifti_Part_1
+# OASIS NIfTI Dataset
 
-![Progress](https://progress-bar.dev/1/?title=Progress&width=150&color=brightgreen)
+## Introduction
 
-## Overview
-This GitHub repository contains the first part of the OASIS-1 dataset, which comprises cross-sectional MRI data of young, middle-aged, nondemented, and demented older adults. The original data was provided in the .img and .hdr formats, but I have converted it into the compressed NIfTI format (.nii.gz) using FSL_UTILS.
+Welcome to the OASIS NIfTI dataset repository! This repository contains the OASIS-1 dataset in the NIfTI format (.nii.gz) split into 12 parts. The original data, which was in .img and .hdr formats, has been converted into the more widely used NIfTI format using FSL_UTILS.
 
 ## About the OASIS-1 Dataset
-- **Subjects**: 416
-- **MR Sessions**: 434
-- **Age Range**: 18 to 96
-- **Alzheimer's Disease (AD)**: The dataset includes 100 subjects over the age of 60 who have been diagnosed with very mild to mild AD.
-- **Additional Scans**: For 20 of the nondemented subjects, images from a subsequent scan session after a short delay (less than 90 days) are included to assess acquisition reliability.
-- **Data Anonymization**: All data have been anonymized to facilitate public distribution. Facial features were removed at the fMRIDC using the Brain Extraction Tool.
 
-## Dataset Details
-- **Authors' Paper**: [Link to the paper](https://direct.mit.edu/jocn/article-abstract/19/9/1498/4427/Open-Access-Series-of-Imaging-Studies-OASIS-Cross?redirectedFrom=fulltext)
-- **CSV File**: The dataset also includes an additional CSV file with information about each subject, including ID, Sex, Hand, Age, Education, SES, MMSE, CDR, eTIV, nWBV, ASF, and Delay.
+The OASIS-1 dataset is a collection of cross-sectional MRI data from 416 subjects, covering the adult life span from ages 18 to 96. It includes both young, middle-aged, nondemented, and demented older adults. The dataset also comprises individuals with early-stage Alzheimer’s Disease (AD). Each subject has 3 or 4 individual T1-weighted MRI scans obtained within a single imaging session.
+
+For subjects over the age of 60, 100 have been diagnosed with very mild to mild AD. Additionally, 20 nondemented subjects have images from a subsequent scan session after a short delay (less than 90 days) to assess acquisition reliability.
+
+All data have been anonymized to allow for public distribution. Facial features were removed at the fMRIDC (http://www.fmridc.org) using the Brain Extraction Tool. The full dataset is 15.8 GB compressed and 50 GB uncompressed.
+
+The OASIS-1 dataset is a valuable resource for researchers and data scientists interested in brain imaging, neurodegenerative diseases, and related fields.
 
 ## Dataset Organization
-The OASIS-1 dataset is a comprehensive medical dataset of nearly 450 patients' brain MRIs. Each patient's MRI data was conducted in 3-4 sessions, and environmental conditions and other crucial factors for diagnosis were specified. Some patients initially diagnosed as non-demented had another scan and were subsequently diagnosed with dementia.
 
-## Dataset Visualization
-I have chosen to present the OASIS-1 dataset in 12 parts, each available in a compressed .tar format, with each part being nearly 10 GB in size. I visualized the data using MRICron to ensure its accuracy and quality.
+The OASIS NIfTI dataset has been split into 12 parts to facilitate easy access and download. Each part is available as a compressed .tar file, with each file being approximately 10 GB in size. The division into parts makes it more manageable to work with and download, ensuring a smoother experience for users.
 
 ## Accessing the Dataset
-You can access the first part of the OASIS-1 dataset in the NIfTI format (.nii.gz) through the following link: [OASIS-1_Part_1](https://lnkd.in/g4XGm_nH).
 
-## Note
-Converting the MRI images into the NIfTI format has been an exhaustive process, but I'm thrilled to provide this valuable resource for research and analysis. Stay tuned for the remaining parts of the dataset, which I'll be uploading soon.
+You can access each part of the OASIS NIfTI dataset through the following links:
 
-Thank you for your interest, and feel free to explore the data and provide feedback or collaborate on further research.
+1. [OASIS-1_Part_1](https://github.com/blackpearl006/OASIS_nifti_Part_1)
+2. [OASIS-1_Part_2](https://github.com/blackpearl006/OASIS_nifti_Part_2)
+3. [OASIS-1_Part_3](https://github.com/blackpearl006/OASIS_nifti_Part_3)
+4. [OASIS-1_Part_4](https://github.com/blackpearl006/OASIS_nifti_Part_4)
+5. [OASIS-1_Part_5](https://github.com/blackpearl006/OASIS_nifti_Part_5)
+6. [OASIS-1_Part_6](https://github.com/blackpearl006/OASIS_nifti_Part_6)
+7. [OASIS-1_Part_7](https://github.com/blackpearl006/OASIS_nifti_Part_7)
+8. [OASIS-1_Part_8](https://github.com/blackpearl006/OASIS_nifti_Part_8)
+9. [OASIS-1_Part_9](https://github.com/blackpearl006/OASIS_nifti_Part_9)
+10. [OASIS-1_Part_10](https://github.com/blackpearl006/OASIS_nifti_Part_10)
+11. [OASIS-1_Part_11](https://github.com/blackpearl006/OASIS_nifti_Part_11)
+12. [OASIS-1_Part_12](https://github.com/blackpearl006/OASIS_nifti_Part_12)
+
+Feel free to explore the dataset, and use it for your research and analysis needs. If you have any questions, feedback, or suggestions, please don't hesitate to reach out.
+
+Thank you for your interest in the OASIS NIfTI dataset, and happy researching!
